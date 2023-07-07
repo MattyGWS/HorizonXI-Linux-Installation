@@ -34,11 +34,13 @@ steps to take
 
 3. Open up a konsole window and copy paste or type this (note the line that states the version number, change that number based on whichever version you have;
 
-``mkdir ~/horizon-xi
+```
+mkdir ~/horizon-xi
 cp "/home/deck/Downloads/HorizonXI-Launcher-1.0.1.Setup.exe" ~/horizon-xi/installer.exe
 cd ~/horizon-xi
 7z x installer.exe
-7z x HorizonXI_Launcher-1.0.1-full.nupkg``
+7z x HorizonXI_Launcher-1.0.1-full.nupkg
+```
 
 4. open the ProtonQT-Up app you got earlier from the discover store and add version "GE-Proton-42" (this will require you to restart the steam application for it to take effect once you've added this proton version)
 ![image](https://github.com/MattyGWS/HorizonXI-Linux-Installation/assets/56587299/9a8009b2-6361-4984-b2cb-8859a3fb03b1)
@@ -61,7 +63,8 @@ and open config.json
 
 10. make the following changes inside this file in the text editor (Kate is the name of the text editor, don't question it) --- This step can be skipped if you're just updating the launcher and you made the changes in the past;
 
-``"padmode000": {
+```
+"padmode000": {
     "name": "Gamepad Settings Controls",
     "key": "padmode000",
     "value": [
@@ -72,11 +75,13 @@ and open config.json
         1,
         1
     ]
-}``
+}
+```
 
 And;
 
-``"padsin000": {
+```
+"padsin000": {
     "name": "Button Mappings",
     "key": "padsin000",
     "value": [
@@ -108,7 +113,8 @@ And;
         11,
         -1
     ]
-}``
+}
+```
 
 -----
 11. Go back into gamemode on the steamdeck, launch horizonxi launcher like any other game, hit play and you're done! (note that for me at least, on my steamdeck when i open the horizonxi launcher the mouse input from the touchpad doesn't seem to work so i have to press play by actually using the touch screen)
@@ -122,11 +128,13 @@ To update your launcher in the future, all you need to do is go to the horizon w
 
 Ensuring it's in the download folder, open your terminal and either write or paste this;
 
-``*mkdir ~/horizon-xi
+```
+*mkdir ~/horizon-xi
 cp "/home/mattyws/MEGA/Downloads/HorizonXI-Launcher-1.1.6.Setup.exe" ~/horizon-xi/installer.exe
 cd ~/horizon-xi
 7z x installer.exe
-7z x HorizonXI_Launcher-1.1.6-full.nupkg``
+7z x HorizonXI_Launcher-1.1.6-full.nupkg
+```
 
 but make sure you have the correct verion written instead of 1.1.6, in this case as of writing the latest version is 1.1.6.
 
