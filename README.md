@@ -61,6 +61,8 @@ cd ~/horizon-xi
 
 on steamdeck it's more like this; `/home/deck/.local/share/Steam/steamapps/compatdata/<prefix_id>/drive_c/users/<user>/AppData/Roaming/HorizonXI-Launcher/`
 
+the <prefix_ID> is a random number you will need to figure out which one is for horizon as there will likely be multiple folders in here. You can use the search function in the folder
+
 and open config.json
 
 10. make the following changes inside this file in the text editor (Kate is the name of the text editor, don't question it) --- This step can be skipped if you're just updating the launcher and you made the changes in the past;
