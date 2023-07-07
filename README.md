@@ -129,7 +129,7 @@ To update your launcher in the future, all you need to do is go to the horizon w
 Ensuring it's in the download folder, open your terminal and either write or paste this;
 
 ```
-*mkdir ~/horizon-xi
+mkdir ~/horizon-xi
 cp "/home/mattyws/MEGA/Downloads/HorizonXI-Launcher-1.1.6.Setup.exe" ~/horizon-xi/installer.exe
 cd ~/horizon-xi
 7z x installer.exe
