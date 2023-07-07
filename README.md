@@ -1,2 +1,2 @@
 # HorizonXI-Linux-Installation
-A step by step guide to installing HorizonXI on linux 
+A step by step guide to installing HorizonXI, the private FFXI server, on linux.
