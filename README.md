@@ -57,7 +57,9 @@ cd ~/horizon-xi
 
 8. Open the horizon launcher and open gamepad configuration, enable XInput.
 
-9.  open dolphin (the folder/file explorer just like on windows) and go to `/home/deck/.local/share/Steam/steamapps/compatdata/<prefix_id>/drive_c/users/<user>/AppData/Roaming/HorizonXI-Launcher/`
+9.  open dolphin (the folder/file explorer just like on windows) and go to; `/home/mattyws/.local/share/Steam/steamapps/compatdata/<prefix_id>/drive_c/users/<user>/AppData/Roaming/HorizonXI-Launcher/`
+
+on steamdeck it's more like this; `/home/deck/.local/share/Steam/steamapps/compatdata/<prefix_id>/drive_c/users/<user>/AppData/Roaming/HorizonXI-Launcher/`
 
 and open config.json
 
