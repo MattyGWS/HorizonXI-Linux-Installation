@@ -53,6 +53,8 @@ cd ~/horizon-xi
 
 7. Launch Horizon like you would any other steam game ! when you have the launcher open you can signup/signin and begin downloading/installing the game!
 
+-----
+
 **the above steps work on other linux distros but steamdeck has an extra step to make the controls work** (and they work well once you've done it), this is the extra steamdeck steps;
 
 8. Open the horizon launcher and open gamepad configuration, enable XInput.
