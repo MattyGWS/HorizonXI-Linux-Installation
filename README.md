@@ -5,9 +5,10 @@ step by step is in this link from earlier <https://vaughanhilts.me/2022/06/19/in
 
 
 Software to be aware of;
+
 **Konsole** - this is a terminal (commandline) software for typing in commands, this is already installed. You'll be copy/pasting commands in here but remember that copy/pasting in konsole is ctrl+shift + c, and ctrl+shift + v, where everywhere else copy/paste is just ctrl+c and ctrl+v. if this is annoying you can use a mouse and right click in the konsole window and copy/paste that way.
 
-**Discover **- this is just an app store, it's already installed, think of it like windows' store app.
+**Discover** - this is just an app store, it's already installed, think of it like windows' store app.
 
 **ProtonUp-qt** - this needs to be installed, go to the discover app and search for it, install it. This software just allows you to add proton-ge to steam (a community version of proton, the compatibility software that lets you run windows software on linux, dont worry if this sounds confusing you don't need to know much about it)
 
