@@ -15,7 +15,7 @@ Software to be aware of;
 
 **ProtonUp-qt** - this needs to be installed, go to the discover app and search for it, install it. This software just allows you to add proton-ge to steam (a community version of proton, the compatibility software that lets you run windows software on linux, dont worry if this sounds confusing you don't need to know much about it).
 
-**Firefox** - web browser, if not installed already you can grab this on the discover app.
+**Firefox** - web browser, if not installed already you can grab this on the discover app. Otherwise use your browser of choice it's all good
 
 **Kate** - already installed, this is the notepad of your linux desktop. (it's actually better and you can get it on windows too, would recommend over notepad).
 
