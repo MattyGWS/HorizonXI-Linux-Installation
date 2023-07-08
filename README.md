@@ -34,7 +34,7 @@ steps to take
 2. Download the horizon launcher to the Downloads folder (usually the default Downloads folder location) from here;
 <https://github.com/HorizonFFXI/HorizonXI-Launcher-Binaries/releases/tag/v1.0.1>
 
-3. Open up a konsole window and copy paste or type this (note the line that states the version number, change that number based on whichever version you have;
+3. Open up a konsole window and copy paste or type this (you will need to update this later as of step 12);
 
 ```
 mkdir ~/horizon-xi
