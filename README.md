@@ -135,7 +135,7 @@ And;
 To update your launcher in the future, all you need to do is go to the horizon website and download the latest launcher exe from here;
 <https://horizonxi.com/play-now>
 
-Ensuring it's in the download folder, open your terminal and either write or paste this )using the corect path for your download folder);
+Ensuring it's in the download folder, open your terminal and either write or paste this (using the correct path for your download folder);
 
 ```
 mkdir ~/horizon-xi
