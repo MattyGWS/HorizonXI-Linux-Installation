@@ -9,17 +9,19 @@ Software to be aware of;
 
 **KDE** - This guide assumes you're using the KDE desktop environment, as opposed to Gnome or other DEs. The guide will be pretty much identical on all desktop environments but for some reason KDE devs gave stupid names to some of the default applications as seen below.
 
-**Konsole** - this is a terminal (commandline) software for typing in commands, this is already installed. You'll be copy/pasting commands in here but remember that copy/pasting in konsole is ctrl+shift + c, and ctrl+shift + v, where everywhere else copy/paste is just ctrl+c and ctrl+v. if this is annoying you can use a mouse and right click in the konsole window and copy/paste that way.
+**Konsole** - This is a terminal (commandline) software for typing in commands, this is already installed. You'll be copy/pasting commands in here but remember that copy/pasting in konsole is ctrl+shift + c, and ctrl+shift + v, where everywhere else copy/paste is just ctrl+c and ctrl+v. if this is annoying you can use a mouse and right click in the konsole window and copy/paste that way.
 
-**Discover** - this is just an app store, it's already installed, think of it like windows' store app.
+**Discover** - This is just an app store, it's already installed, think of it like windows' store app.
 
-**ProtonUp-qt** - this needs to be installed, go to the discover app and search for it, install it. This software just allows you to add proton-ge to steam (a community version of proton, the compatibility software that lets you run windows software on linux, dont worry if this sounds confusing you don't need to know much about it).
+**ProtonUp-qt** - This needs to be installed, go to the discover app and search for it, install it. This software just allows you to add proton-ge to steam (a community version of proton, the compatibility software that lets you run windows software on linux, dont worry if this sounds confusing you don't need to know much about it).
 
-**Firefox** - web browser, if not installed already you can grab this on the discover app. Otherwise use your browser of choice it's all good.
+**Firefox** - Web browser, if not installed already you can grab this on the discover app. Otherwise use your browser of choice it's all good.
 
-**Kate** - already installed, this is the notepad of your linux desktop. (it's actually better and you can get it on windows too, would recommend over notepad).
+**Kate** - Already installed, this is the notepad of your linux desktop. (it's actually better and you can get it on windows too, would recommend over notepad).
 
-**Dolphin** - this is just the folder/file explorer like on windows, it has a name for some reason and that name is dolphin.
+**Dolphin** - This is just the folder/file explorer like on windows, it has a name for some reason and that name is dolphin.
+
+**Steam** - If you're on steamdeck you will obviously have this, if you're on other distros it may not be installed by default and you can find it in the discover store or whatever app store your distro has.
 
 -----
 
