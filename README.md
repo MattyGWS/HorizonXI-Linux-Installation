@@ -139,7 +139,7 @@ Ensuring it's in the download folder, open your terminal and either write or pas
 
 ```
 mkdir ~/horizon-xi
-cp "/home/mattyws/MEGA/Downloads/HorizonXI-Launcher-1.1.6.Setup.exe" ~/horizon-xi/installer.exe
+cp "/home/deck/Downloads/HorizonXI-Launcher-1.1.6.Setup.exe" ~/horizon-xi/installer.exe
 cd ~/horizon-xi
 7z x installer.exe
 7z x HorizonXI_Launcher-1.1.6-full.nupkg
