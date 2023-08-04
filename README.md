@@ -31,7 +31,7 @@ All of this is done in desktop mode if you're on the steamdeck, which looks and 
 
 steps to take
 
-1. First you'd need to set a memorable sudo password (admin password) if you haven't already. If you're on steamdeck this step is likely needed. Open the konsole and type `passwd` then type in a password as prompted and press enter. Heads up typing in the password in future in the konsole will look like you aren't typing at all, this is a security feature of the terminal, you're still inputting the password but it just doesn't visibly show.
+1. First you'd need to set a memorable sudo password (admin password) if you haven't already. If you're on steamdeck this step is likely needed, however if you're on a normal linux desktop distro you can probably skip this as it's already been done. Open the konsole and type `passwd` then type in a password as prompted and press enter. Heads up typing in the password in future in the konsole will look like you aren't typing at all, this is a security feature of the terminal, you're still inputting the password but it just doesn't visibly show.
 
 2. Download the horizon launcher to the Downloads folder (usually the default Downloads folder location) from here;
 <https://github.com/HorizonFFXI/HorizonXI-Launcher-Binaries/releases/tag/v1.0.1>
