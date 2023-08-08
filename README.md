@@ -1,7 +1,7 @@
 # HorizonXI-Linux-Installation
-A step by step guide to installing HorizonXI, the private FFXI server, on linux.
+A step by step guide to installing HorizonXI, the private FFXI server, on linux using Steam.
 
-The original step by step is in this link from earlier <https://vaughanhilts.me/2022/06/19/installing-horizon-xi-linux.html> but I understand this looks a little crazy so I'll try to explain it in a more broken down way.
+The original step by step is in this link; <https://vaughanhilts.me/2022/06/19/installing-horizon-xi-linux.html> but I understand this looks a little crazy to people not used to linux so I'll try to explain it in a more broken down way. Please read each step carefully. If you are on Steamdeck you will need to go through each of these steps in order. If you are on a normal linux distro you can ignore the steamdeck steps/comments.
 
 -----
 
@@ -21,7 +21,7 @@ Software to be aware of;
 
 **Dolphin** - This is just the folder/file explorer like on windows, it has a name for some reason and that name is dolphin.
 
-**Steam** - If you're on steamdeck you will obviously have this, if you're on other distros it may not be installed by default and you can find it in the discover store or whatever app store your distro has.
+**Steam** - If you're on steamdeck you will obviously have this, if you're on other distros it may not be installed by default and you can find it in the discover store or whatever app store your distro has. Be aware that the flatpak version of steam may be more annoying to use here as it has less permissions to read your drive than native steam would have.
 
 -----
 
