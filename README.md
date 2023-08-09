@@ -3,6 +3,8 @@ A step by step guide to installing HorizonXI, the private FFXI server, on linux 
 
 The original step by step is in this link; <https://vaughanhilts.me/2022/06/19/installing-horizon-xi-linux.html> but I understand this looks a little crazy to people not used to linux so I'll try to explain it in a more broken down way. Please read each step carefully. If you are on Steamdeck you will need to go through each of these steps in order. If you are on a normal linux distro you can ignore the steamdeck steps/comments.
 
+Please please please read each step carefully and do things in the correct order. 
+
 -----
 
 Software to be aware of;
@@ -25,13 +27,13 @@ Software to be aware of;
 
 -----
 
-All of this is done in desktop mode if you're on the steamdeck, which looks and feels similar to windows. Best used with a mouse and keyboard if possible as it's not so fun to use with the steamdecks on screen keyboard and touch pads. That said, once you're done installing you never need to go back to desktop mode again or use a mouse and keyboard to play horizon, switching between desktop and game mode is easy enough though. If you're on a regular desktop linux distro then you can ignore the steamdeck steps.
+All of this is done in desktop mode if you're on the steamdeck, which looks and feels similar to windows. Best used with a mouse and keyboard if possible as it's not so fun to use with the steamdecks on screen keyboard and touch pads. That said, once you're done installing you never need to go back to desktop mode again (other than to update the launcher) or use a mouse and keyboard to play horizon, switching between desktop and game mode is easy enough though. If you're on a regular desktop linux distro then you can ignore the steamdeck steps/notes.
 
 -----
 
 steps to take
 
-1. First you'd need to set a memorable sudo password (admin password) if you haven't already. If you're on steamdeck this step is likely needed, however if you're on a normal linux desktop distro you can probably skip this as it's already been done. Open the konsole and type `passwd` then type in a password as prompted and press enter. Heads up typing in the password in future in the konsole will look like you aren't typing at all, this is a security feature of the terminal, you're still inputting the password but it just doesn't visibly show.
+1. First you'd need to set a memorable sudo password (admin password) if you haven't already. If you're on steamdeck this step is likely needed, however if you're on a normal linux desktop distro you can probably skip this as it's already been done. Open the konsole and type `passwd` then type in a password as prompted and press enter. Heads up; when typing in the password in the Konsole it may look like you aren't typing at all, this is a security feature of the terminal, you're still inputting the password but it just doesn't visibly show.
 
 2. Download the horizon launcher to the Downloads folder (usually the default Downloads folder location) from here;
 <https://github.com/HorizonFFXI/HorizonXI-Launcher-Binaries/releases/tag/v1.0.1>
