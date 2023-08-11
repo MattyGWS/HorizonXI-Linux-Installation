@@ -40,13 +40,21 @@ steps to take
 
 Note that while this isn't the latest version, it's needed fir the first install, you will need to update at the end of the process as seen in step 12
 
-4. Open up a konsole window and copy paste or type this (you will need to update this later as of step 12);
+4. Open up a konsole window and copy paste or type these lines one by one pressing enter to execute each one (you will need to update this later as of step 12);
 
 ```
 mkdir ~/horizon-xi
+```
+```
 cp "/home/deck/Downloads/HorizonXI-Launcher-1.0.1.Setup.exe" ~/horizon-xi/installer.exe
+```
+```
 cd ~/horizon-xi
+```
+```
 7z x installer.exe
+```
+```
 7z x HorizonXI_Launcher-1.0.1-full.nupkg
 ```
 
@@ -137,17 +145,25 @@ And;
 To update your launcher in the future, all you need to do is go to the horizon website and download the latest launcher exe from here;
 <https://horizonxi.com/play-now>
 
-Ensuring it's in the download folder, open your terminal and either write or paste this (using the correct path for your download folder);
+Ensuring it's in the download folder, open your terminal and either write or paste these lines one by one (using the correct path for your download folder and name of the launcher file) pressing enter to execute each one;
 
 ```
 mkdir ~/horizon-xi
+```
+```
 cp "/home/deck/Downloads/HorizonXI-Launcher-1.1.6.Setup.exe" ~/horizon-xi/installer.exe
+```
+```
 cd ~/horizon-xi
+```
+```
 7z x installer.exe
+```
+```
 7z x HorizonXI_Launcher-1.1.6-full.nupkg
 ```
 
-but make sure you have the correct verion written instead of 1.1.6, in this case as of writing the latest version is 1.1.6.
+Make sure you have the correct verion written instead of 1.1.6, in this case as of writing the latest version is 1.1.6.
 
 Hit enter and go through the steps (either pressing y to say yes to every step or pressing a to say yes to all steps as prompted)
 
