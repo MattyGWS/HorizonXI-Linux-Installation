@@ -151,7 +151,7 @@ Ensuring it's in the download folder, open your terminal and either write or pas
 mkdir ~/horizon-xi
 ```
 ```
-cp "/home/deck/Downloads/HorizonXI-Launcher-1.1.6.Setup.exe" ~/horizon-xi/installer.exe
+cp "/home/deck/Downloads/HorizonXI-Launcher-1.1.7.Setup.exe" ~/horizon-xi/installer.exe
 ```
 ```
 cd ~/horizon-xi
@@ -160,11 +160,11 @@ cd ~/horizon-xi
 7z x installer.exe
 ```
 ```
-7z x HorizonXI_Launcher-1.1.6-full.nupkg
+7z x HorizonXI_Launcher-1.1.7-full.nupkg
 ```
 
-Make sure you have the correct verion written instead of 1.1.6, in this case as of writing the latest version is 1.1.6.
+Make sure you have the correct verion written instead of 1.1.7, in this case as of writing the latest version is 1.1.7, if this is the same version you downloaded then no worries.
 
-Hit enter and go through the steps (either pressing y to say yes to every step or pressing a to say yes to all steps as prompted)
+You may be prompted during one of the steps to do something (either pressing y to say yes to each individual step as you go or pressing a to say yes to all steps as prompted)
 
 That's it, now you have updated the launcher. Nothing else to do!
