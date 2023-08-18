@@ -163,7 +163,7 @@ cd ~/horizon-xi
 7z x HorizonXI_Launcher-1.1.12-full.nupkg
 ```
 
-Make sure you have the correct verion written instead of 1.1.7, in this case as of writing the latest version is 1.1.7, if this is the same version you downloaded then no worries.
+Make sure you have the correct verion written instead of 1.1.12, in this case as of writing the latest version is 1.1.12, if this is the same version you downloaded then no worries.
 
 You may be prompted during one of the steps to do something (either pressing y to say yes to each individual step as you go or pressing a to say yes to all steps as prompted)
 
