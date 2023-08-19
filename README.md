@@ -38,7 +38,7 @@ steps to take
 2. Download the horizon launcher to the Downloads folder (usually the default Downloads folder location) from here;
 <https://github.com/HorizonFFXI/HorizonXI-Launcher-Binaries/releases/tag/v1.0.1>
 
-Note that while this isn't the latest version, it's needed for the first install, you will need to update at the end of the process as seen in step 12
+*Note that while this isn't the latest version, it's needed for the first install, you will need to update the launcher as seen in step 12 before continuing.*
 
 3. Open up a konsole window and copy paste or type these lines one by one pressing enter to execute each one (you will need to update this later as of step 12) ensuring that the path is correct to your download folder;
 
