@@ -25,6 +25,8 @@ Software to be aware of;
 
 **Steam** - If you're on steamdeck you will obviously have this, if you're on other distros it may not be installed by default and you can find it in the discover store or whatever app store your distro has. Be aware that the flatpak version of steam may be more annoying to use here as it has less permissions to read your drive than native steam would have.
 
+**Steam Link** - This isn't needed if you can dock your steamdeck with its own mouse and keyboard, but if you cant then the other option is to remote into your steamdeck from your pc. This is made extremely simple by the Steam Link application which you can get on the discover store. This way you can just use your desktop/laptop pc to control your steamdeck!
+
 -----
 
 All of this is done in desktop mode if you're on the steamdeck, which looks and feels similar to windows. Best used with a mouse and keyboard if possible as it's not so fun to use with the steamdecks on screen keyboard and touch pads. That said, once you're done installing you never need to go back to desktop mode again (other than to update the launcher) or use a mouse and keyboard to play horizon, switching between desktop and game mode is easy enough though. If you're on a regular desktop linux distro then you can ignore the steamdeck steps/notes.
