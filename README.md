@@ -38,7 +38,7 @@ steps to take
 
 *Note that while this isn't the latest version, it's needed for the first install, you will need to update the launcher later after installing the game.*
 
-3. Open up a konsole window and copy paste or type these lines one by one pressing enter to execute each one (you will need to update this later as of step 12) ensuring that the path is correct to your download folder;
+3. Open up a konsole window and copy paste or type these lines one by one pressing enter to execute each one (you will need to update this later as of step 12, DO NOT update before installing the game) ensuring that the path is correct to your download folder;
 
 ```
 mkdir ~/horizon-xi
