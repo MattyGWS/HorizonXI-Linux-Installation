@@ -9,13 +9,13 @@ Please please please read each step carefully and do things in the correct order
 
 -----
 
-**Warning!** There is currently a bug with the bootloader file that will prevent fresh installs of Horizon from booting. If this is your first time installing horizon on your deck with a fresh install you will need to replace the bad bootload with a good one after all is installed (So this will be a temporary final step after installation until the horizon devs fix the issue). 
+**Warning!** There is currently a bug with the bootloader file that will prevent fresh installs of Horizon from booting. If this is your first time installing horizon on your deck with a fresh install you will need to replace the bad bootloader with a good one after all is installed (So this will be a temporary final step after installation until the horizon devs fix the issue). 
 
 To replace the bootloader, first download this one <https://raw.githubusercontent.com/trentondyck/horizon_scripts/main/horizon-loader.exe>
 
 Then simply drop it into the correct folder and replace the old horizon-bootloader.exe file with the new one. The file can be found here;
 
-'/home/deck/.local/share/Steam/steamapps/compatdata/<prefix_id>/pfx/drive_c/Program Files (x86)/HorizonXI/Game/bootloader/'
+`/home/deck/.local/share/Steam/steamapps/compatdata/<prefix_id>/pfx/drive_c/Program Files (x86)/HorizonXI/Game/bootloader/`
 
 Again don't worry about this step until the end and sorry for the inconvenience. :)
 
