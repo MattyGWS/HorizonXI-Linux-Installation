@@ -1,9 +1,23 @@
 # HorizonXI-Linux-Installation
 A step by step guide to installing HorizonXI, the private FFXI server, on linux using Steam.
 
-The original step by step is in this link; <https://vaughanhilts.me/2022/06/19/installing-horizon-xi-linux.html> but I understand this looks a little crazy to people not used to linux so I'll try to explain it in a more broken down way. Please read each step carefully. If you are on Steamdeck you will need to go through each of these steps in order. If you are on a normal linux distro you can ignore the steamdeck steps/comments.
+I'll start by saying my guide is the manual way and if you're like me and like to understand each step of whats happening then it will be the guide for you. If you're on Steamdeck and not on a standard linux distro and just want to get going and don't care how it works then there's a simple script by Trent to install the game, you can find the steamdeck horizon install script here; <https://github.com/trentondyck/horizon_scripts>
+
+Now to begin with my guide, the original step by step is in this link; <https://vaughanhilts.me/2022/06/19/installing-horizon-xi-linux.html> but I understand this looks a little crazy to people not used to linux so I'll try to explain it in a more broken down way. Please read each step carefully. If you are on Steamdeck you will need to go through each of these steps in order. If you are on a normal linux distro you can ignore the steamdeck steps/comments.
 
 Please please please read each step carefully and do things in the correct order. 
+
+-----
+
+**Warning!** There is currently a bug with the bootloader file that will prevent fresh installs of Horizon from booting. If this is your first time installing horizon on your deck with a fresh install you will need to replace the bad bootload with a good one after all is installed (So this will be a temporary final step after installation until the horizon devs fix the issue). 
+
+To replace the bootloader, first download this one <https://raw.githubusercontent.com/trentondyck/horizon_scripts/main/horizon-loader.exe>
+
+Then simply drop it into the correct folder and replace the old horizon-bootloader.exe file with the new one. The file can be found here;
+
+'/home/deck/.local/share/Steam/steamapps/compatdata/<prefix_id>/pfx/drive_c/Program Files (x86)/HorizonXI/Game/bootloader/'
+
+Again don't worry about this step until the end and sorry for the inconvenience. :)
 
 -----
 
@@ -165,4 +179,4 @@ Make sure you have the correct verion written, in this case as of writing the la
 
 You may be prompted during one of the steps to do something (either pressing y to say yes to each individual step as you go or pressing a to say yes to all steps as prompted)
 
-That's it, now you have updated the launcher. Nothing else to do!
+That's it, now you have updated the launcher. Nothing else to do! 
