@@ -8,6 +8,7 @@ Now to begin with my guide, the original step by step is in this link; <https://
 Please please please read each step carefully and do things in the correct order. 
 
 -----
+-----
 
 **Warning!** There is currently a bug with the bootloader file that will prevent fresh installs of Horizon from booting. If this is your first time installing horizon on your deck with a fresh install you will need to replace the bad bootloader with a good one after all is installed (So this will be a temporary final step after installation until the horizon devs fix the issue). 
 
@@ -19,6 +20,7 @@ Then simply drop it into the correct folder and replace the old horizon-bootload
 
 Again don't worry about this step until the end and sorry for the inconvenience. :)
 
+-----
 -----
 
 Software to be aware of;
