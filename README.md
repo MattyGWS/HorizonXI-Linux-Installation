@@ -165,7 +165,7 @@ Ensuring it's in the download folder, open your terminal and either write or pas
 mkdir ~/horizon-xi
 ```
 ```
-cp "/home/deck/Downloads/HorizonXI-Launcher-1.2.3.Setup.exe" ~/horizon-xi/installer.exe
+cp "/home/deck/Downloads/HorizonXI-Launcher-1.2.4.Setup.exe" ~/horizon-xi/installer.exe
 ```
 ```
 cd ~/horizon-xi
@@ -174,10 +174,10 @@ cd ~/horizon-xi
 7z x installer.exe
 ```
 ```
-7z x HorizonXI_Launcher-1.2.3-full.nupkg
+7z x HorizonXI_Launcher-1.2.4-full.nupkg
 ```
 
-Make sure you have the correct verion written, in this case as of writing the latest version is 1.2.3, if this is the same version you downloaded then no worries.
+Make sure you have the correct verion written, in this case as of writing the latest version is 1.2.4, if this is the same version you downloaded then no worries.
 
 You may be prompted during one of the steps to do something (either pressing y to say yes to each individual step as you go or pressing a to say yes to all steps as prompted)
 
