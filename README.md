@@ -56,6 +56,9 @@ cd ~/horizon-xi
 ```
 7z x HorizonXI_Launcher-1.2.4-full.nupkg
 ```
+Make sure you have the correct verion written, in this case as of writing the latest version is 1.2.4, if this is the same version you downloaded then no worries.
+
+You may be prompted during one of the steps to do something (either pressing y to say yes to each individual step as you go or pressing a to say yes to all steps as prompted)
 
 4. open the ProtonQT-Up app you got earlier from the discover store and add version "GE-Proton-42" (this will require you to restart the steam application for it to take effect once you've added this proton version). if you didn't get the app already it's fine just grab it now.
 ![image](https://github.com/MattyGWS/HorizonXI-Linux-Installation/assets/56587299/9a8009b2-6361-4984-b2cb-8859a3fb03b1)
