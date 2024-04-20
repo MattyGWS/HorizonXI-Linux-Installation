@@ -10,19 +10,6 @@ Please please please read each step carefully and do things in the correct order
 -----
 -----
 
-**Warning!** There is currently a bug with the bootloader file that will prevent fresh installs of Horizon from booting. If this is your first time installing horizon on your deck with a fresh install you will need to replace the bad bootloader with a good one after all is installed (So this will be a temporary final step after installation until the horizon devs fix the issue). 
-
-To replace the bootloader, first download this one <https://raw.githubusercontent.com/trentondyck/horizon_scripts/main/horizon-loader.exe>
-
-Then simply drop it into the correct folder and replace the old horizon-bootloader.exe file with the new one. The file can be found here;
-
-`/home/deck/.local/share/Steam/steamapps/compatdata/<prefix_id>/pfx/drive_c/Program Files (x86)/HorizonXI/Game/bootloader/`
-
-Again don't worry about this step until the end and sorry for the inconvenience. :)
-
------
------
-
 Software to be aware of;
 
 **KDE** - This guide assumes you're using the KDE desktop environment, as opposed to Gnome or other DEs. The guide will be pretty much identical on all desktop environments but for some reason KDE devs gave stupid names to some of the default applications as seen below.
@@ -50,17 +37,15 @@ steps to take
 1. First you'd need to set a memorable sudo password (admin password) if you haven't already. If you're on steamdeck this step is likely needed, however if you're on a normal linux desktop distro you can probably skip this as it's already been done. Open the konsole and type `passwd` then type in a password as prompted and press enter. Heads up; when typing in the password in the Konsole it may look like you aren't typing at all, this is a security feature of the terminal, you're still inputting the password but it just doesn't visibly show.
 
 2. Download the horizon launcher to the Downloads folder (usually the default Downloads folder location) from here;
-<https://github.com/HorizonFFXI/HorizonXI-Launcher-Binaries/releases/tag/v1.0.1>
+<https://horizonxi.com/play-now>
 
-*Note that while this isn't the latest version, it's needed for the first install, you will need to update the launcher later after installing the game. Step 12 is the guide to doing the update*
-
-3. Open up a konsole window and copy paste or type these lines one by one pressing enter to execute each one (you will need to update this later as of step 12, DO NOT update before installing the game) ensuring that the path is correct to your download folder;
+3. Open up a konsole window and copy paste or type these lines one by one pressing enter to execute each one;
 
 ```
 mkdir ~/horizon-xi
 ```
 ```
-cp "/home/deck/Downloads/HorizonXI-Launcher-1.0.1.Setup.exe" ~/horizon-xi/installer.exe
+cp "/home/deck/Downloads/HorizonXI-Launcher-1.2.4.Setup.exe" ~/horizon-xi/installer.exe
 ```
 ```
 cd ~/horizon-xi
@@ -69,7 +54,7 @@ cd ~/horizon-xi
 7z x installer.exe
 ```
 ```
-7z x HorizonXI_Launcher-1.0.1-full.nupkg
+7z x HorizonXI_Launcher-1.2.4-full.nupkg
 ```
 
 4. open the ProtonQT-Up app you got earlier from the discover store and add version "GE-Proton-42" (this will require you to restart the steam application for it to take effect once you've added this proton version). if you didn't get the app already it's fine just grab it now.
