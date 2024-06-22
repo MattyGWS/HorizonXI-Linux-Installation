@@ -1,11 +1,9 @@
 # HorizonXI-Linux-Installation
 A step by step guide to installing HorizonXI, the private FFXI server, on linux using Steam.
 
-I'll start by saying my guide is the manual way and if you're like me and like to understand each step of whats happening then it will be the guide for you. All we are doing here is "unzipping" the launcher and adding it to steam as a non-steam game, try not to let this be daunting to you it's actually very simple! :)
+**Please please please read each step carefully and do things in the correct order.**
 
-Now to begin with my guide, the original step by step is in this link; <https://vaughanhilts.me/2022/06/19/installing-horizon-xi-linux.html> but I understand this looks a little crazy to people not used to linux so I'll try to explain it in a more broken down way. Please read each step carefully. If you are on Steamdeck you will need to go through each of these steps in order. If you are on a normal linux distro you can ignore the steamdeck steps/comments.
-
-Please please please read each step carefully and do things in the correct order. 
+Please read each step carefully. If you are on Steamdeck you will need to go through each of these steps in order. If you are on a normal linux distro you can ignore the steamdeck steps/comments.
 
 -----
 -----
