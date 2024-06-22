@@ -1,6 +1,8 @@
 # HorizonXI-Linux-Installation
 A step by step guide to installing HorizonXI, the private FFXI server, on linux using Steam.
 
+Recommended to use a keyboard plugged in! Otherwise you will have to use STEAM+X buttons to use a virtual keybaord on screen and it's not fun.
+
 **Please please please read each step carefully and do things in the correct order.**
 
 Please read each step carefully. If you are on Steamdeck you will need to go through each of these steps in order. If you are on a normal linux distro you can ignore the steamdeck steps/comments.
@@ -25,8 +27,6 @@ Software to be aware of;
 **Dolphin** - This is just the folder/file explorer like on windows, it has a name for some reason and that name is dolphin.
 
 **Steam** - If you're on steamdeck you will obviously have this, if you're on other distros it may not be installed by default and you can find it in the discover store or whatever app store your distro has. Be aware that the flatpak version of steam may be more annoying to use here as it has less permissions to read your drive than native steam would have.
-
-**Steam Link** - This isn't needed if you can dock your steamdeck with its own mouse and keyboard, but if you can't then another option is to remote into your steamdeck from your pc. This is made extremely simple by the Steam Link application which you can get on every platform. This way you can just use your desktop/laptop pc to control your steamdeck! This is recommended over using the on-screen keyboard on the deck <https://store.steampowered.com/streaming/>
 
 -----
 I realise this looks daunting but all we're doing here is extracting the launchers .exe file as if it were a .zip, then running the .exe inside that with Steam as a non steam game.
