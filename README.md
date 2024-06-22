@@ -1,9 +1,9 @@
 # HorizonXI-Linux-Installation
 A step by step guide to installing HorizonXI, the private FFXI server, on linux using Steam.
 
-Recommended to use a keyboard plugged in! Otherwise you will have to use STEAM+X buttons to use a virtual keybaord on screen and it's not fun.
-
 **Please please please read each step carefully and do things in the correct order.**
+
+Recommended to use a keyboard plugged in! Otherwise you will have to use STEAM+X buttons to use a virtual keybaord on screen and it's not fun.
 
 Please read each step carefully. If you are on Steamdeck you will need to go through each of these steps in order. If you are on a normal linux distro you can ignore the steamdeck steps/comments.
 
