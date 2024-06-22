@@ -29,7 +29,7 @@ Software to be aware of;
 **Steam Link** - This isn't needed if you can dock your steamdeck with its own mouse and keyboard, but if you can't then another option is to remote into your steamdeck from your pc. This is made extremely simple by the Steam Link application which you can get on every platform. This way you can just use your desktop/laptop pc to control your steamdeck! This is recommended over using the on-screen keyboard on the deck <https://store.steampowered.com/streaming/>
 
 -----
-I realise this looks daunting but all we're doing here is extracting the launchers .exe file as if it werre a .zip, then running the .exe inside that with Steam as a non steam game.
+I realise this looks daunting but all we're doing here is extracting the launchers .exe file as if it were a .zip, then running the .exe inside that with Steam as a non steam game.
 
 steps to take
 
