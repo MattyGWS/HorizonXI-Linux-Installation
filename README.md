@@ -33,12 +33,12 @@ I realise this looks daunting but all we're doing here is extracting the launche
 
 steps to take
 
-1. First you'd need to set a memorable sudo password (admin password) if you haven't already. If you're on steamdeck this step is likely needed, however if you're on a normal linux desktop distro you can probably skip this as it's already been done. Open the konsole and type `passwd` then type in a password as prompted and press enter. Heads up; when typing in the password in the Konsole it may look like you aren't typing at all, this is a security feature of the terminal, you're still inputting the password but it just doesn't visibly show.
+1. If you're on steamdeck you will need to set a memorable sudo password (admin password) if you haven't already. If you're on a normal linux desktop distro you can probably skip this as it's likely already been done (though it doesn't hurt to do it if you're unsure). Open the konsole and type `passwd` then type in a password as prompted then press enter. Heads up; when typing in the password in the Konsole it may look like you aren't typing at all, this is a security feature of the terminal, you're still inputting the password but it just doesn't visibly show.
 
-2. Download the horizon launcher to the Downloads folder (usually the default Downloads folder location) from here;
+2. Download the horizon launcher to the Downloads folder from here;
 <https://horizonxi.com/play-now>
 
-3. Ensuring it's in the download folder, open up a konsole window and copy/paste this command then press enter;
+3. Ensuring it's in the download folder, open the Konsole (if you haven't already) and copy/paste this command then press enter;
 
 ```
 mkdir $HOME/horizon-xi;
@@ -47,9 +47,9 @@ cd $HOME/horizon-xi &&
 7z x -y installer.exe &&
 7z x -y HorizonXI_Launcher-1.3.0-full.nupkg
 ```
-Make sure you have the correct verion written, in this case as of writing the latest version is 1.3.0, if this is the same version you downloaded then no worries.
+Make sure you have the correct verion of the launcher written, in this case as of writing the latest version is 1.3.0, if this is the same version you downloaded then no worries.
 
-4. open the ProtonQT-Up app you got earlier from the discover store and add version "GE-Proton-42" (this will require you to restart the steam application for it to take effect once you've added this proton version). if you didn't get the app already it's fine just grab it now;
+4. Open the ProtonQT-Up app you got earlier from the discover store and add version "GE-Proton-42" (this will require you to restart the steam application for it to take effect once you've added this proton version). if you didn't get the app already it's fine just grab it now;
 
 ![image](https://github.com/MattyGWS/HorizonXI-Linux-Installation/assets/56587299/9a8009b2-6361-4984-b2cb-8859a3fb03b1)
 
@@ -69,13 +69,13 @@ Make sure you have the correct verion written, in this case as of writing the la
 
 8. Open the horizon launcher and open gamepad configuration, enable XInput.
 
-9.  open dolphin (the folder/file explorer just like on windows) and go to; `/home/deck/.local/share/Steam/steamapps/compatdata/<prefix_id>/drive_c/users/<user>/AppData/Roaming/HorizonXI-Launcher/`
+9.  Open dolphin (the folder/file explorer just like on windows) and go to; `/home/deck/.local/share/Steam/steamapps/compatdata/<prefix_id>/drive_c/users/<user>/AppData/Roaming/HorizonXI-Launcher/`
 
 the <prefix_ID> is a random number you will need to figure out which one is for horizon as there will likely be multiple folders in here. You can use the search function in the folder
 
 and open config.json
 
-10. make the following changes inside this file in Kate (Kate is the name of the text editor, don't question it);
+10. Make the following changes inside this file in Kate (Kate is the name of the text editor, don't question it);
 
 ```
 "padmode000": {
