@@ -38,7 +38,7 @@ steps to take
 2. Download the horizon launcher to the Downloads folder (usually the default Downloads folder location) from here;
 <https://horizonxi.com/play-now>
 
-3. Ensuring it's in the download folder, open up a konsole window and copy/paste this command then press enter;;
+3. Ensuring it's in the download folder, open up a konsole window and copy/paste this command then press enter;
 
 ```
 mkdir $HOME/horizon-xi;
