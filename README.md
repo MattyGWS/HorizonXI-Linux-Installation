@@ -38,22 +38,14 @@ steps to take
 2. Download the horizon launcher to the Downloads folder (usually the default Downloads folder location) from here;
 <https://horizonxi.com/play-now>
 
-3. Open up a konsole window and copy paste or type these lines one by one pressing enter to execute each one;
+3. Ensuring it's in the download folder, open up a konsole window and copy/paste this command then press enter;;
 
 ```
-mkdir ~/horizon-xi
-```
-```
-cp "/home/deck/Downloads/HorizonXI-Launcher-1.3.0.Setup.exe" ~/horizon-xi/installer.exe
-```
-```
-cd ~/horizon-xi
-```
-```
-7z x installer.exe
-```
-```
-7z x HorizonXI_Launcher-1.3.0-full.nupkg
+mkdir $HOME/horizon-xi;
+cp "$HOME/Downloads/HorizonXI-Launcher-1.3.0.Setup.exe" $HOME/horizon-xi/installer.exe &&
+cd $HOME/horizon-xi &&
+7z x -y installer.exe &&
+7z x -y HorizonXI_Launcher-1.3.0-full.nupkg
 ```
 Make sure you have the correct verion written, in this case as of writing the latest version is 1.3.0, if this is the same version you downloaded then no worries.
 
@@ -149,21 +141,13 @@ And;
 To update your launcher in the future, all you need to do is go to the horizon website and download the latest launcher exe from here;
 <https://horizonxi.com/play-now>
 
-Ensuring it's in the download folder, open your terminal and either write or paste these lines one by one (using the correct path for your download folder and name of the launcher file) pressing enter to execute each one;
+Ensuring it's in the download folder, open up a konsole window and copy/paste this command then press enter;
 
 ```
-mkdir ~/horizon-xi
-```
-```
-cp "/home/deck/Downloads/HorizonXI-Launcher-1.3.0.Setup.exe" ~/horizon-xi/installer.exe
-```
-```
-cd ~/horizon-xi
-```
-```
-7z x -y installer.exe
-```
-```
+mkdir $HOME/horizon-xi;
+cp "$HOME/Downloads/HorizonXI-Launcher-1.3.0.Setup.exe" $HOME/horizon-xi/installer.exe &&
+cd $HOME/horizon-xi &&
+7z x -y installer.exe &&
 7z x -y HorizonXI_Launcher-1.3.0-full.nupkg
 ```
 
