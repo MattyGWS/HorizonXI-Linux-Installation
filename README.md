@@ -49,8 +49,6 @@ cd $HOME/horizon-xi &&
 ```
 Make sure you have the correct verion written, in this case as of writing the latest version is 1.3.0, if this is the same version you downloaded then no worries.
 
-You may be prompted during one of the steps to do something (either pressing y to say yes to each individual step as you go or pressing a to say yes to all steps as prompted)
-
 4. open the ProtonQT-Up app you got earlier from the discover store and add version "GE-Proton-42" (this will require you to restart the steam application for it to take effect once you've added this proton version). if you didn't get the app already it's fine just grab it now;
 
 ![image](https://github.com/MattyGWS/HorizonXI-Linux-Installation/assets/56587299/9a8009b2-6361-4984-b2cb-8859a3fb03b1)
@@ -59,15 +57,15 @@ You may be prompted during one of the steps to do something (either pressing y t
 
 ![image](https://github.com/MattyGWS/HorizonXI-Linux-Installation/assets/56587299/ae7711ab-e4d4-4ce8-bda2-c5bfc96965a1)
 
-6. Now that you've added the launcher, find it in your library in steam and right click>properties, then go to the compatibility tab and choose the GE-proton version from earlier;
+6. Now that you've added the horizonxi launcher to steam, find it in your library in steam and right click>properties, then go to the compatibility tab and choose GE-proton 7-42 (same version you downloaded earlier);
 
 ![image](https://github.com/MattyGWS/HorizonXI-Linux-Installation/assets/56587299/5b1ac9f6-e317-4bd1-98a0-9d68dc5f5bd6)
 
-7. Launch Horizon like you would any other steam game ! when you have the launcher open you can signup/signin and begin downloading/installing the game!
+7. Hit play to launch Horizon from steam. when you have the launcher open you can signup/signin and begin downloading/installing the game! Once the game is fully downloaded, if you're on steamdeck you will still need to do the below steps. If you're on a normal desktop or laptop you can now enjoy HorizonXI!
 
 -----
 
-**the above steps work on other linux distros but steamdeck has an extra step to make the controls work** (and they work well once you've done it), this is the extra steamdeck steps;
+**the above steps work on other linux distros but steamdeck has this extra step to make the controls work. You only need to do this once, not every time you update the launcher**;
 
 8. Open the horizon launcher and open gamepad configuration, enable XInput.
 
@@ -77,7 +75,7 @@ the <prefix_ID> is a random number you will need to figure out which one is for 
 
 and open config.json
 
-10. make the following changes inside this file in the text editor (Kate is the name of the text editor, don't question it) --- This step can be skipped if you're just updating the launcher and you made the changes in the past;
+10. make the following changes inside this file in Kate (Kate is the name of the text editor, don't question it);
 
 ```
 "padmode000": {
