@@ -20,18 +20,15 @@ Software to be aware of;
 
 **ProtonUp-qt** - This needs to be installed, go to the discover app and search for it, install it. This software just allows you to add proton-ge to steam (a community version of proton, the compatibility software that lets you run windows software on linux, dont worry if this sounds confusing you don't need to know much about it).
 
-**Firefox** - Web browser, if not installed already you can grab this on the discover app. Otherwise use your browser of choice it's all good.
-
-**Kate** - Already installed, this is the notepad of your linux desktop. (it's actually better and you can get it on windows too, would recommend over notepad).
+**Kate** - Already installed, this is the notepad of your linux desktop.
 
 **Dolphin** - This is just the folder/file explorer like on windows, it has a name for some reason and that name is dolphin.
 
-**Steam** - If you're on steamdeck you will obviously have this, if you're on other distros it may not be installed by default and you can find it in the discover store or whatever app store your distro has. Be aware that the flatpak version of steam may be more annoying to use here as it has less permissions to read your drive than native steam would have.
+**Steam** - If you're on Steamdeck you will obviously have this, if you're on other distros it may not be installed by default and you can find it in the discover store or whatever app store your distro has.
 
 -----
-I realise this looks daunting but all we're doing here is extracting the launchers .exe file as if it were a .zip, then running the .exe inside that with Steam as a non steam game.
+I realise this looks daunting but all we're doing here is extracting the launchers .exe file as if it were a .zip, then running the .exe inside that with Steam as a non steam game. And with all that out of the way, here we go!
 
-steps to take
 
 1. If you're on steamdeck you will need to set a memorable sudo password (admin password) if you haven't already. If you're on a normal linux desktop distro you can probably skip this as it's likely already been done (though it doesn't hurt to do it if you're unsure). Open the konsole and type `passwd` then type in a password as prompted then press enter. Heads up; when typing in the password in the Konsole it may look like you aren't typing at all, this is a security feature of the terminal, you're still inputting the password but it just doesn't visibly show.
 
@@ -69,7 +66,7 @@ Make sure you have the correct verion of the launcher written, in this case as o
 
 8. Open the horizon launcher and open gamepad configuration, enable XInput.
 
-9.  Open dolphin (the folder/file explorer just like on windows) and go to; `/home/deck/.local/share/Steam/steamapps/compatdata/<prefix_id>/drive_c/users/<user>/AppData/Roaming/HorizonXI-Launcher/`
+9. Open dolphin (the folder/file explorer just like on windows) and go to; `/home/deck/.local/share/Steam/steamapps/compatdata/<prefix_id>/drive_c/users/<user>/AppData/Roaming/HorizonXI-Launcher/`
 
 the <prefix_ID> is a random number you will need to figure out which one is for horizon as there will likely be multiple folders in here. You can use the search function in the folder
 
