@@ -1,5 +1,5 @@
 # HorizonXI-Linux-Installation
-A step by step guide to installing HorizonXI, the private FFXI server, on linux/steamdeck using Steam.
+A step by step guide to installing HorizonXI, the private FFXI server, on linux/steamdeck using Steam. **Not Windows on steamdeck.**
 
 **Please please please read each step carefully and do things in the correct order.**
 
