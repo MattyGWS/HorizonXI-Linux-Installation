@@ -55,7 +55,7 @@ cd $HOME/horizon-xi &&
 
 5. Now that you've added the horizonxi launcher to steam, find it in your library in steam and right click>properties, then go to the compatibility tab and choose GE-proton 7-42 (same version you downloaded earlier);
 
-![image](https://github.com/MattyGWS/HorizonXI-Linux-Installation/assets/56587299/5b1ac9f6-e317-4bd1-98a0-9d68dc5f5bd6)
+![image](https://github.com/user-attachments/assets/0cdda30b-a029-4619-8ecb-2cda61bba616)
 
 6. Hit play to launch Horizon from steam. when you have the launcher open you can signup/signin and begin downloading/installing the game! Once the game is fully downloaded, if you're on steamdeck you will still need to do the below steps. If you're on a normal desktop or laptop you can now enjoy HorizonXI!
 
