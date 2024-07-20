@@ -35,6 +35,7 @@ I realise this looks daunting but all we're doing here is extracting the launche
 2. Ensuring it's in the download folder, open the Konsole (if you haven't already) and copy/paste this command then press enter;
 
 ```
+rm -f $HOME/Downloads/HorizonXI-Launcher-1.3.0.Setup.exe;
 wget -P $HOME//Downloads https://github.com/HorizonFFXI/HorizonXI-Launcher-Binaries/releases/download/v1.3.0/HorizonXI-Launcher-1.3.0.Setup.exe &&
 mkdir $HOME/horizon-xi;
 cp "$HOME/Downloads/HorizonXI-Launcher-1.3.0.Setup.exe" $HOME/horizon-xi/installer.exe &&
@@ -134,6 +135,7 @@ And;
 Open the Konsole, copy/paste then run this command;
 
 ```
+rm -f $HOME/Downloads/HorizonXI-Launcher-1.3.0.Setup.exe;
 wget -P $HOME/Downloads https://github.com/HorizonFFXI/HorizonXI-Launcher-Binaries/releases/download/v1.3.0/HorizonXI-Launcher-1.3.0.Setup.exe &&
 mkdir $HOME/horizon-xi;
 cp "$HOME/Downloads/HorizonXI-Launcher-1.3.0.Setup.exe" $HOME/horizon-xi/installer.exe &&
