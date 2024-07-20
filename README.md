@@ -32,12 +32,10 @@ I realise this looks daunting but all we're doing here is extracting the launche
 
 1. If you're on steamdeck you will need to set a memorable sudo password (admin password) if you haven't already. If you're on a normal linux desktop distro you can probably skip this as it's likely already been done (though it doesn't hurt to do it if you're unsure). Open the konsole and type `passwd` then type in a password as prompted then press enter. Heads up; when typing in the password in the Konsole it may look like you aren't typing at all, this is a security feature of the terminal, you're still inputting the password but it just doesn't visibly show.
 
-2. Download the horizon launcher to the Downloads folder from here;
-<https://horizonxi.com/play-now>
-
-3. Ensuring it's in the download folder, open the Konsole (if you haven't already) and copy/paste this command then press enter;
+2. Ensuring it's in the download folder, open the Konsole (if you haven't already) and copy/paste this command then press enter;
 
 ```
+wget -P $HOME//Downloads https://github.com/HorizonFFXI/HorizonXI-Launcher-Binaries/releases/download/v1.3.0/HorizonXI-Launcher-1.3.0.Setup.exe &&
 mkdir $HOME/horizon-xi;
 cp "$HOME/Downloads/HorizonXI-Launcher-1.3.0.Setup.exe" $HOME/horizon-xi/installer.exe &&
 cd $HOME/horizon-xi &&
@@ -46,33 +44,33 @@ cd $HOME/horizon-xi &&
 ```
 Make sure you have the correct verion of the launcher written, in this case as of writing the latest version is 1.3.0, if this is the same version you downloaded then no worries.
 
-4. Open the ProtonQT-Up app you got earlier from the discover store and add version "GE-Proton-42" (this will require you to restart the steam application for it to take effect once you've added this proton version). if you didn't get the app already it's fine just grab it now;
+3. Open the ProtonQT-Up app you got earlier from the discover store and add version "GE-Proton-42" (this will require you to restart the steam application for it to take effect once you've added this proton version). if you didn't get the app already it's fine just grab it now;
 
 ![image](https://github.com/MattyGWS/HorizonXI-Linux-Installation/assets/56587299/9a8009b2-6361-4984-b2cb-8859a3fb03b1)
 
-5. Open the steam application and, in Library, in the bottom left corner should be a button to add a non-steam game, click the button and click browse and find the launcher (this should be located in `~/horizon-xi/lib/net45/HorizonXI-Launcher.exe` where '~/' is the user's home directory. Unless it's a steamdeck install where the user will be "deck" this directory will differ on each machine.). if you can't see it, you may need to change the filter from ".desktop" at the bottom to "all application types" like in my screenshot here;
+4. Open the steam application and, in Library, in the bottom left corner should be a button to add a non-steam game, click the button and click browse and find the launcher (this should be located in `~/horizon-xi/lib/net45/HorizonXI-Launcher.exe` where '~/' is the user's home directory. Unless it's a steamdeck install where the user will be "deck" this directory will differ on each machine.). if you can't see it, you may need to change the filter from ".desktop" at the bottom to "all application types" like in my screenshot here;
 
 ![image](https://github.com/MattyGWS/HorizonXI-Linux-Installation/assets/56587299/ae7711ab-e4d4-4ce8-bda2-c5bfc96965a1)
 
-6. Now that you've added the horizonxi launcher to steam, find it in your library in steam and right click>properties, then go to the compatibility tab and choose GE-proton 7-42 (same version you downloaded earlier);
+5. Now that you've added the horizonxi launcher to steam, find it in your library in steam and right click>properties, then go to the compatibility tab and choose GE-proton 7-42 (same version you downloaded earlier);
 
 ![image](https://github.com/MattyGWS/HorizonXI-Linux-Installation/assets/56587299/5b1ac9f6-e317-4bd1-98a0-9d68dc5f5bd6)
 
-7. Hit play to launch Horizon from steam. when you have the launcher open you can signup/signin and begin downloading/installing the game! Once the game is fully downloaded, if you're on steamdeck you will still need to do the below steps. If you're on a normal desktop or laptop you can now enjoy HorizonXI!
+6. Hit play to launch Horizon from steam. when you have the launcher open you can signup/signin and begin downloading/installing the game! Once the game is fully downloaded, if you're on steamdeck you will still need to do the below steps. If you're on a normal desktop or laptop you can now enjoy HorizonXI!
 
 -----
 
 **the above steps work on other linux distros but steamdeck has this extra step to make the controls work. You only need to do this once, not every time you update the launcher**;
 
-8. Open the horizon launcher and open gamepad configuration, enable XInput.
+7. Open the horizon launcher and open gamepad configuration, enable XInput.
 
-9. Open dolphin (the folder/file explorer just like on windows) and go to; `/home/deck/.local/share/Steam/steamapps/compatdata/<prefix_id>/drive_c/users/<user>/AppData/Roaming/HorizonXI-Launcher/`
+8. Open dolphin (the folder/file explorer just like on windows) and go to; `/home/deck/.local/share/Steam/steamapps/compatdata/<prefix_id>/drive_c/users/<user>/AppData/Roaming/HorizonXI-Launcher/`
 
 the <prefix_ID> is a random number you will need to figure out which one is for horizon as there will likely be multiple folders in here. You can use the search function in the folder
 
 and open config.json
 
-10. Make the following changes inside this file in Kate (Kate is the name of the text editor, don't question it);
+9. Make the following changes inside this file in Kate (Kate is the name of the text editor, don't question it);
 
 ```
 "padmode000": {
@@ -127,11 +125,11 @@ And;
 }
 ```
 
-11. Go back into gamemode on the steamdeck, launch horizonxi launcher like any other game, hit play and you're done! (note that for me at least, on my steamdeck when i open the horizonxi launcher the mouse input from the touchpad doesn't seem to work so i have to press play by actually using the touch screen)
+10. Go back into gamemode on the steamdeck, launch horizonxi launcher like any other game, hit play and you're done! (note that for me at least, on my steamdeck when i open the horizonxi launcher the mouse input from the touchpad doesn't seem to work so i have to press play by actually using the touch screen)
 
 -----
 
-12. Updating the launcher!
+11. Updating the launcher!
 
 To update your launcher in the future, all you need to do is go to the horizon website and download the latest launcher exe from here;
 <https://horizonxi.com/play-now>
@@ -139,6 +137,7 @@ To update your launcher in the future, all you need to do is go to the horizon w
 Ensuring it's in the download folder, open up a konsole window and copy/paste this command then press enter;
 
 ```
+wget -P $HOME/Downloads https://github.com/HorizonFFXI/HorizonXI-Launcher-Binaries/releases/download/v1.3.0/HorizonXI-Launcher-1.3.0.Setup.exe &&
 mkdir $HOME/horizon-xi;
 cp "$HOME/Downloads/HorizonXI-Launcher-1.3.0.Setup.exe" $HOME/horizon-xi/installer.exe &&
 cd $HOME/horizon-xi &&
