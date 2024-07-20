@@ -32,7 +32,7 @@ I realise this looks daunting but all we're doing here is extracting the launche
 
 1. If you're on steamdeck you will need to set a memorable sudo password (admin password) if you haven't already. If you're on a normal linux desktop distro you can probably skip this as it's likely already been done (though it doesn't hurt to do it if you're unsure). Open the konsole and type `passwd` then type in a password as prompted then press enter. Heads up; when typing in the password in the Konsole it may look like you aren't typing at all, this is a security feature of the terminal, you're still inputting the password but it just doesn't visibly show.
 
-2. Ensuring it's in the download folder, open the Konsole (if you haven't already) and copy/paste this command then press enter;
+2. Open the Konsole (if you haven't already) and copy/paste this command then press enter;
 
 ```
 rm -f $HOME/Downloads/HorizonXI-Launcher-1.3.0.Setup.exe;
@@ -43,7 +43,6 @@ cd $HOME/horizon-xi &&
 7z x -y installer.exe &&
 7z x -y HorizonXI_Launcher-1.3.0-full.nupkg
 ```
-Make sure you have the correct verion of the launcher written, in this case as of writing the latest version is 1.3.0, if this is the same version you downloaded then no worries.
 
 3. Open the ProtonQT-Up app you got earlier from the discover store and add version "GE-Proton-42" (this will require you to restart the steam application for it to take effect once you've added this proton version). if you didn't get the app already it's fine just grab it now;
 
