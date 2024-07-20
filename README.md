@@ -131,10 +131,7 @@ And;
 
 11. Updating the launcher!
 
-To update your launcher in the future, all you need to do is go to the horizon website and download the latest launcher exe from here;
-<https://horizonxi.com/play-now>
-
-Ensuring it's in the download folder, open up a konsole window and copy/paste this command then press enter;
+Open the Konsole and run copy/paste then run this command.
 
 ```
 wget -P $HOME/Downloads https://github.com/HorizonFFXI/HorizonXI-Launcher-Binaries/releases/download/v1.3.0/HorizonXI-Launcher-1.3.0.Setup.exe &&
@@ -144,7 +141,5 @@ cd $HOME/horizon-xi &&
 7z x -y installer.exe &&
 7z x -y HorizonXI_Launcher-1.3.0-full.nupkg
 ```
-
-Make sure you have the correct verion written, in this case as of writing the latest version is 1.3.0, if this is the same version you downloaded then no worries.
 
 That's it, now you have updated the launcher. Nothing else to do! 
