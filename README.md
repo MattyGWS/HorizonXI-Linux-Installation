@@ -46,7 +46,7 @@ cd $HOME/horizon-xi &&
 
 3. Open the ProtonQT-Up app you got earlier from the discover store and add version "GE-Proton-42" (this will require you to restart the steam application for it to take effect once you've added this proton version). if you didn't get the app already it's fine just grab it now;
 
-![image](https://github.com/user-attachments/assets/14969f98-b015-4e26-aa8d-8cb228408ea6)
+![image](https://github.com/user-attachments/assets/8a334f84-4bf2-49cd-9035-7525123d5b31)
 
 
 4. Open the steam application and, in Library, in the bottom left corner should be a button to add a non-steam game, click the button and click browse and find the launcher (this should be located in `~/horizon-xi/lib/net45/HorizonXI-Launcher.exe` where '~/' is the user's home directory. Unless it's a steamdeck install where the user will be "deck" this directory will differ on each machine.). if you can't see it, you may need to change the filter from ".desktop" at the bottom to "all application types" like in my screenshot here;
