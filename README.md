@@ -131,7 +131,7 @@ And;
 
 11. Updating the launcher!
 
-Open the Konsole and run copy/paste then run this command.
+Open the Konsole, copy/paste then run this command;
 
 ```
 wget -P $HOME/Downloads https://github.com/HorizonFFXI/HorizonXI-Launcher-Binaries/releases/download/v1.3.0/HorizonXI-Launcher-1.3.0.Setup.exe &&
