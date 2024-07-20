@@ -141,5 +141,4 @@ cd $HOME/horizon-xi &&
 7z x -y installer.exe &&
 7z x -y HorizonXI_Launcher-1.3.0-full.nupkg
 ```
-
 That's it, now you have updated the launcher. Nothing else to do! 
