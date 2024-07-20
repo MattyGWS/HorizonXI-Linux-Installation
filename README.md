@@ -27,6 +27,8 @@ Software to be aware of;
 **Steam** - If you're on Steamdeck you will obviously have this, if you're on other distros it may not be installed by default and you can find it in the discover store or whatever app store your distro has.
 
 -----
+-----
+
 I realise this looks daunting but all we're doing here is extracting the launchers .exe file as if it were a .zip, then running the .exe inside that with Steam as a non steam game. And with all that out of the way, here we go!
 
 
