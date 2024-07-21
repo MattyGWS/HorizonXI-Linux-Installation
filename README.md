@@ -39,7 +39,7 @@ I realise this looks daunting but all we're doing here is extracting the launche
 ```
 rm -f $HOME/Downloads/HorizonXI-Launcher-1.3.0.Setup.exe;
 wget -P $HOME//Downloads https://github.com/HorizonFFXI/HorizonXI-Launcher-Binaries/releases/download/v1.3.0/HorizonXI-Launcher-1.3.0.Setup.exe &&
-mkdir $HOME/horizon-xi;
+mkdir -p $HOME/horizon-xi;
 cp "$HOME/Downloads/HorizonXI-Launcher-1.3.0.Setup.exe" $HOME/horizon-xi/installer.exe &&
 cd $HOME/horizon-xi &&
 7z x -y installer.exe &&
@@ -139,7 +139,7 @@ Open the Konsole, copy/paste then run this command;
 ```
 rm -f $HOME/Downloads/HorizonXI-Launcher-1.3.0.Setup.exe;
 wget -P $HOME/Downloads https://github.com/HorizonFFXI/HorizonXI-Launcher-Binaries/releases/download/v1.3.0/HorizonXI-Launcher-1.3.0.Setup.exe &&
-mkdir $HOME/horizon-xi;
+mkdir -p $HOME/horizon-xi;
 cp "$HOME/Downloads/HorizonXI-Launcher-1.3.0.Setup.exe" $HOME/horizon-xi/installer.exe &&
 cd $HOME/horizon-xi &&
 7z x -y installer.exe &&
