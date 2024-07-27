@@ -73,7 +73,7 @@ the <prefix_ID> is a random number you will need to figure out which one is for 
 
 and open config.json
 
-9. Make the following changes inside this file in Kate (Kate is the name of the text editor, don't question it);
+9. Make the following changes inside this file in Kate then save it. (Kate is the name of the text editor, don't question it);
 
 ```
 "padmode000": {
