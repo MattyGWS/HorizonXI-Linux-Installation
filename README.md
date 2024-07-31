@@ -67,8 +67,8 @@ cd $HOME/horizon-xi &&
 ```
 rm -f $HOME/Downloads/config.json;
 wget -P $HOME/Downloads https://raw.githubusercontent.com/MattyGWS/HorizonXI-Linux-Installation/main/config.json &&
-config_dir=$(find $HOME/.local/share/Steam/steamapps/compatdata/ -name "config.json" -exec dirname {} \;)
-find $HOME/.local/share/Steam/steamapps/compatdata/ -name "config.json" -exec rm -f {} \;
+config_dir=$(find $HOME/.local/share/Steam/steamapps/compatdata/ -path "*/HorizonXI-Launcher/config.json" -exec dirname {} \;)
+find $HOME/.local/share/Steam/steamapps/compatdata/ -path "*/HorizonXI-Launcher/config.json" -exec rm -f {} \;
 if [ -n "$config_dir" ]; then
   cp $HOME/Downloads/config.json "$config_dir"
 fi
