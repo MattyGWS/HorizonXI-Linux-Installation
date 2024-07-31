@@ -62,9 +62,7 @@ cd $HOME/horizon-xi &&
 
 **If you're on Steamdeck, there is an extra step to make the controls work. You only need to do this once, not every time you update the launcher**;
 
-7. In desktop mode, open the horizon launcher and open gamepad configuration, enable XInput then close the launcher.
-
-8. Open the Konsole, copy/paste then run this command;
+7. Open the Konsole, copy/paste then run this command;
 
 ```
 rm -f $HOME/Downloads/config.json;
@@ -76,11 +74,11 @@ if [ -n "$config_dir" ]; then
 fi
 ```
 
-9. Go back into gamemode on the steamdeck, launch horizonxi launcher like any other game, hit play and you're done! (note that for me at least, on my steamdeck when i open the horizonxi launcher the mouse input from the touchpad doesn't seem to work so i have to press play by actually using the touch screen)
+8. Go back into gamemode on the steamdeck, launch horizonxi launcher like any other game, hit play and you're done! (note that for me at least, on my steamdeck when i open the horizonxi launcher the mouse input from the touchpad doesn't seem to work so i have to press play by actually using the touch screen)
 
 -----
 
-10. Updating the launcher!
+9. Updating the launcher!
 
 Open the Konsole, copy/paste then run this command;
 
