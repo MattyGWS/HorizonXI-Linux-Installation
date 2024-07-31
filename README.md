@@ -34,7 +34,7 @@ I realise this looks daunting but all we're doing here is extracting the launche
 
 1. If you're on steamdeck you will need to set a memorable sudo password (admin password) if you haven't already. If you're on a normal linux desktop distro you can probably skip this as it's likely already been done (though it doesn't hurt to do it if you're unsure). Open the konsole and type `passwd` then type in a password as prompted then press enter. Heads up; when typing in the password in the Konsole it may look like you aren't typing at all, this is a security feature of the terminal, you're still inputting the password but it just doesn't visibly show.
 
-2. Open the Konsole (if you haven't already) and copy/paste this command then press enter;
+2. Open the Konsole, copy/paste then run this command;
 
 ```
 rm -f $HOME/Downloads/HorizonXI-Launcher-1.3.0.Setup.exe;
@@ -67,7 +67,7 @@ cd $HOME/horizon-xi &&
 
 7. Open the horizon launcher and open gamepad configuration, enable XInput.
 
-8. Open up the Konsole and copy/paste the following then hit enter;
+8. Open the Konsole, copy/paste then run this command;
 
 ```
 rm -f $HOME/Downloads/config.json;
