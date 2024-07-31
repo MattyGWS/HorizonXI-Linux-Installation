@@ -62,7 +62,7 @@ cd $HOME/horizon-xi &&
 
 **If you're on Steamdeck, there is an extra step to make the controls work. You only need to do this once, not every time you update the launcher**;
 
-7. Open the Konsole, copy/paste then run this command;
+7. In desktop mode, open the Konsole, copy/paste then run this command;
 
 ```
 rm -f $HOME/Downloads/config.json;
