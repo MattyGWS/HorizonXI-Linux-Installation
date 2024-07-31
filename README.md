@@ -59,11 +59,11 @@ cd $HOME/horizon-xi &&
 
 ![image](https://github.com/user-attachments/assets/0cdda30b-a029-4619-8ecb-2cda61bba616)
 
-6. Hit play to launch Horizon from steam. when you have the launcher open you can signup/signin and begin downloading/installing the game! Once the game is fully downloaded, if you're on steamdeck you will still need to do the below steps. If you're on a normal desktop or laptop you can now enjoy HorizonXI!
+6. Hit play to launch Horizon from steam. when you have the launcher open you can signup/signin and begin downloading/installing the game! Once it's done, enjoy the game!
 
 -----
 
-**the above steps work on other linux distros but steamdeck has this extra step to make the controls work. You only need to do this once, not every time you update the launcher**;
+**If you're on Steamdeck, there is an extra step to make the controls work. You only need to do this once, not every time you update the launcher**;
 
 7. Open the horizon launcher and open gamepad configuration, enable XInput.
 
