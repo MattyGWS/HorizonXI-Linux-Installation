@@ -67,7 +67,7 @@ cd $HOME/horizon-xi &&
 
 7. Open the horizon launcher and open gamepad configuration, enable XInput.
 
-8. Copy/paste the following into the Konsole and hit enter;
+8. Open up the Konsole and copy/paste the following then hit enter;
 
 ```
 rm -f $HOME/Downloads/config.json;
