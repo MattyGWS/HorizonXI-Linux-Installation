@@ -1,0 +1,650 @@
+{
+	"addons": {
+		"allmaps": {
+			"id": "1",
+			"name": "allmaps",
+			"description": "Enables the ability to see every map via /map without needing the key items. Also works for viewing map waypoints.",
+			"author": "atom0s",
+			"enabled": true
+		},
+		"aspect": {
+			"id": "2",
+			"name": "aspect",
+			"description": "Simple addon to better handle the aspect ratio of the game. Allows for non-standard ratios not available via the in-game configuration.",
+			"author": "atom0s",
+			"enabled": true
+		},
+		"cfhblock": {
+			"id": "4",
+			"name": "cfhblock",
+			"description": "Blocks any and all forms of calling for help to prevent accidents. This addon blocks the call for help packet from ever being sent.",
+			"author": "atom0s",
+			"enabled": false
+		},
+		"ChangeCall": {
+			"id": "5",
+			"name": "ChangeCall",
+			"description": "Allows users to override all incoming calls with a new one instead.",
+			"author": "atom0s",
+			"enabled": false
+		},
+		"chatmon": {
+			"id": "7",
+			"name": "chatmon",
+			"description": "Plays sounds as a reaction to certain events in chat. (And some other helpful events.)",
+			"author": "atom0s",
+			"enabled": true
+		},
+		"Checker": {
+			"id": "8",
+			"name": "Checker",
+			"description": "Overrides the response displayed when checking a monster for its difficulty. Colorizes the message based on the type (easy prey, tough, etc.). Also includes displaying monsters levels (including NMs). \n For NM levels to show, you must widescan first!",
+			"author": "atom0s & Lolwutt",
+			"enabled": true
+		},
+		"clock": {
+			"id": "9",
+			"name": "clock",
+			"description": "Allows the player to display various times on screen..",
+			"author": "atom0s",
+			"enabled": false
+		},
+		"config": {
+			"id": "10",
+			"name": "config",
+			"description": "Enables slash commands to force-set game settings directly.",
+			"author": "atom0s",
+			"enabled": false
+		},
+		"craftmon": {
+			"id": "11",
+			"name": "craftmon",
+			"description": "Craftmon is an addon that is able to display the players craft result immediately after starting the synth. It will print out a colored message based on the result. (Normal Quality, High-Quality, or Break)",
+			"author": "atom0s",
+			"enabled": true
+		},
+		"distance": {
+			"id": "12",
+			"name": "distance",
+			"description": "Displays the distance between you and your target.",
+			"author": "atom0s",
+			"enabled": true
+		},
+		"drawdistance": {
+			"id": "13",
+			"name": "drawdistance",
+			"description": "Allows the player to alter the rendering distances of the game via slash commands.",
+			"author": "atom0s",
+			"enabled": false
+		},
+		"enternity": {
+			"id": "14",
+			"name": "enternity",
+			"description": "Removes the need to press enter during cutscenes and other dialog.",
+			"author": "Hypnotoad",
+			"enabled": false
+		},
+		"equipmon": {
+			"id": "15",
+			"name": "equipmon",
+			"description": "Displays the players equipment onscreen at all times.",
+			"author": "atom0s",
+			"enabled": false
+		},
+		"filterless": {
+			"id": "16",
+			"name": "filterless",
+			"description": "Removes the bad language chat filter by force. (Useful for private servers as the client settings are not properly saved.)",
+			"author": "atom0s",
+			"enabled": true
+		},
+		"filters": {
+			"id": "17",
+			"name": "filters",
+			"description": "Allows players to save and load chat filter settings with ease.",
+			"author": "atom0s",
+			"enabled": false
+		},
+		"fps": {
+			"id": "18",
+			"name": "fps",
+			"description": "Displays and manipulates the games framerate handling.",
+			"author": "atom0s",
+			"enabled": false
+		},
+		"hideconsole": {
+			"id": "19",
+			"name": "hideconsole",
+			"description": "Hides the boot loader used for private servers.",
+			"author": "atom0s",
+			"enabled": true
+		},
+		"IME": {
+			"id": "21",
+			"name": "IME",
+			"description": "IME is an addon that enables the Japanese IME toolbar on any language client. This allows you to type in Japanese regardless of what language your client is set to.",
+			"author": "atom0s",
+			"enabled": false
+		},
+		"ImGui Style": {
+			"id": "22",
+			"name": "ImGui Style",
+			"description": "Allows players to customize the overall UI system theme.",
+			"author": "atom0s",
+			"enabled": false
+		},
+		"instantah": {
+			"id": "23",
+			"name": "instantah",
+			"description": "Get the results from your auction house purchase attempts instantly. No more delay waiting to find out if you won an item or not!",
+			"author": "atom0s",
+			"enabled": true
+		},
+		"links": {
+			"id": "24",
+			"name": "links",
+			"description": "A small addon to capture and display links in a UI window that allows you to easily open them via the click of a button.",
+			"author": "atom0s",
+			"enabled": false
+		},
+		"Logs": {
+			"id": "25",
+			"name": "Logs",
+			"description": "Creates log files of all incoming text to the players game client. Log files are named per-character and date they are written to for ease of management.",
+			"author": "atom0s",
+			"enabled": false
+		},
+		"luashitacast": {
+			"id": "26",
+			"name": "luashitacast",
+			"description": "A lua-based equipment swapping system for Ashita",
+			"author": "Thorny",
+			"enabled": false
+		},
+		"macrofix": {
+			"id": "27",
+			"name": "macrofix",
+			"description": "An addon that alters how the macro bars show in game. Removes the delay and instead shows the bars immediately. (Original application and full credit goes to Sorien. Converted to an Ashita addon by atom0s.)",
+			"author": "atom0s",
+			"enabled": true
+		},
+		"petinfo": {
+			"id": "28",
+			"name": "petinfo",
+			"description": "Displays information about the players pet in a simple UI window.",
+			"author": "atom0s",
+			"enabled": false
+		},
+		"recast": {
+			"id": "29",
+			"name": "recast",
+			"description": "Displays the players ability and spell recast information.",
+			"author": "atom0s",
+			"enabled": false
+		},
+		"sexchange": {
+			"id": "30",
+			"name": "sexchange",
+			"description": "Allows players to change their race and hair style easily via packets.",
+			"author": "atom0s",
+			"enabled": false
+		},
+		"singlerace": {
+			"id": "31",
+			"name": "singlerace",
+			"description": "A simple addon to force all other players to a specific race.",
+			"author": "atom0s",
+			"enabled": false
+		},
+		"stfu": {
+			"id": "34",
+			"name": "stfu",
+			"description": "Stfu is an addon that blocks annoying system messages that can often times spam the chat log. It will also convert 's to (call) instead to remove annoying macros.",
+			"author": "atom0s",
+			"enabled": false
+		},
+		"timers": {
+			"id": "35",
+			"name": "timers",
+			"description": "Displays the duration of spells and abilities you've used",
+			"author": "The Mystic",
+			"enabled": false
+		},
+		"timestamp": {
+			"id": "36",
+			"name": "timestamp",
+			"description": "Adds a timestamp to chat messages.",
+			"author": "atom0s",
+			"enabled": false
+		},
+		"tparty": {
+			"id": "37",
+			"name": "tparty",
+			"description": "Displays party member TP amounts and target health percent.",
+			"author": "atom0s",
+			"enabled": true
+		},
+		"HXUI": {
+			"id": "38",
+			"name": "HXUI",
+			"description": "A massive UI overhaul for almost every UI element on your screen.",
+			"author": "HXUI Team",
+			"enabled": true
+		},
+		"MobDB": {
+			"id": "39",
+			"name": "MobDB",
+			"description": "Displays detailed monster information on-screen.",
+			"author": "Thorny",
+			"enabled": true
+		},
+		"NoLock": {
+			"id": "41",
+			"name": "NoLock",
+			"description": "Allows you to engage/disengage without animation lock from effects such as spells being cast on you or mob TP moves.",
+			"author": "WinterSolstice8",
+			"enabled": false
+		},
+		"TargetLines": {
+			"id": "40",
+			"name": "TargetLines",
+			"description": "FFXII style combat lines for FFXI.",
+			"author": "Jyouya",
+			"enabled": false
+		}
+	},
+	"plugins": {
+		"HardwareMouse": {
+			"id": "1",
+			"name": "HardwareMouse",
+			"description": "Force-enables a hardware mouse cursor for the game client. (Useful for those using proxies such as dgVoodoo 2 that mess up the cursor.)",
+			"author": "atom0s",
+			"enabled": true
+		},
+		"LegacyAC": {
+			"id": "2",
+			"name": "LegacyAC",
+			"description": "Older version of Ashitacast ported from Av3 using XML",
+			"author": "Thorny",
+			"enabled": false
+		},
+		"Minimap": {
+			"id": "3",
+			"name": "Minimap",
+			"description": "Displays a minimap of the current area on-screen. Includes various configurations to customize the minimap and its features.",
+			"author": "atom0s",
+			"enabled": false
+		},
+		"Nameplate": {
+			"id": "4",
+			"name": "Nameplate",
+			"description": "Corrects rendering issues in the nameplate.",
+			"author": "Velyn",
+			"enabled": true
+		},
+		"PacketFlow": {
+			"id": "5",
+			"name": "PacketFlow",
+			"description": "Sends update requests the to server at a higher rate.",
+			"author": "Thorny",
+			"enabled": true
+		},
+		"Shorthand": {
+			"id": "6",
+			"name": "Shorthand",
+			"description": "A plugin to allow more flexible typed commands.",
+			"author": "ThornyFFXI",
+			"enabled": false
+		},
+		"Toon": {
+			"id": "7",
+			"name": "Toon",
+			"description": "Adds toon shading to the game.",
+			"author": "atom0s",
+			"enabled": false
+		}
+	},
+	"registrySettings": {
+		"0000": {
+			"name": "Mip Mapping",
+			"key": "0000",
+			"value": 2
+		},
+		"0001": {
+			"name": "Window Width",
+			"key": "0001",
+			"value": 1280
+		},
+		"0002": {
+			"name": "Window Height",
+			"key": "0002",
+			"value": 800
+		},
+		"0003": {
+			"name": "Background Width",
+			"key": "0003",
+			"value": 1280
+		},
+		"0004": {
+			"name": "Background Height",
+			"key": "0004",
+			"value": 800
+		},
+		"0005": {
+			"name": "Unknown/Unused",
+			"key": "0005",
+			"value": -1
+		},
+		"0006": {
+			"name": "Unknown/Unused",
+			"key": "0006",
+			"value": -1
+		},
+		"0007": {
+			"name": "Sound Enabled",
+			"key": "0007",
+			"value": 1
+		},
+		"0008": {
+			"name": "Unknown/Unused",
+			"key": "0008",
+			"value": -1
+		},
+		"0009": {
+			"name": "Unknown/Unused",
+			"key": "0009",
+			"value": -1
+		},
+		"0010": {
+			"name": "Unknown/Unused",
+			"key": "0010",
+			"value": -1
+		},
+		"0011": {
+			"name": "Environment Animations",
+			"key": "0011",
+			"value": 2
+		},
+		"0012": {
+			"name": "Unknown/Unused",
+			"key": "0012",
+			"value": -1
+		},
+		"0013": {
+			"name": "Unknown/Unused",
+			"key": "0013",
+			"value": -1
+		},
+		"0014": {
+			"name": "Unknown/Unused",
+			"key": "0014",
+			"value": -1
+		},
+		"0015": {
+			"name": "Unknown/Unused",
+			"key": "0015",
+			"value": -1
+		},
+		"0016": {
+			"name": "Unknown/Unused",
+			"key": "0016",
+			"value": -1
+		},
+		"0017": {
+			"name": "Bump Mapping",
+			"key": "0017",
+			"value": 0
+		},
+		"0018": {
+			"name": "Texture Compression",
+			"key": "0018",
+			"value": 0
+		},
+		"0019": {
+			"name": "Map Compression",
+			"key": "0019",
+			"value": 1
+		},
+		"0020": {
+			"name": "Unknown/Unused",
+			"key": "0020",
+			"value": 1
+		},
+		"0021": {
+			"name": "Hardware Mouse",
+			"key": "0021",
+			"value": 1
+		},
+		"0022": {
+			"name": "Show Opening Movie",
+			"key": "0022",
+			"value": 0
+		},
+		"0023": {
+			"name": "Simplified Character Creation Visuals",
+			"key": "0023",
+			"value": 0
+		},
+		"0024": {
+			"name": "Unknown/Unused",
+			"key": "0024",
+			"value": 0
+		},
+		"0025": {
+			"name": "Unknown/Unused",
+			"key": "0025",
+			"value": -1
+		},
+		"0026": {
+			"name": "Unknown/Unused",
+			"key": "0026",
+			"value": -1
+		},
+		"0027": {
+			"name": "Unknown/Unused",
+			"key": "0027",
+			"value": -1
+		},
+		"0028": {
+			"name": "Gamma Base",
+			"key": "0028",
+			"value": 0
+		},
+		"0029": {
+			"name": "Maximum Number Of Sounds",
+			"key": "0029",
+			"value": 12
+		},
+		"0030": {
+			"name": "Enable 3D LCD Mode",
+			"key": "0030",
+			"value": 0
+		},
+		"0031": {
+			"name": "Unknown/Unused",
+			"key": "0031",
+			"value": 1002740646
+		},
+		"0032": {
+			"name": "Unknown/Unused",
+			"key": "0032",
+			"value": 0
+		},
+		"0033": {
+			"name": "Unknown/Unused",
+			"key": "0033",
+			"value": 0
+		},
+		"0034": {
+			"name": "Window Mode",
+			"key": "0034",
+			"value": 2
+		},
+		"0035": {
+			"name": "Sound Always On (Play In Background)",
+			"key": "0035",
+			"value": 1
+		},
+		"0036": {
+			"name": "Font Compression",
+			"key": "0036",
+			"value": 1
+		},
+		"0037": {
+			"name": "Menu Width",
+			"key": "0037",
+			"value": 1280
+		},
+		"0038": {
+			"name": "Menu Height",
+			"key": "0038",
+			"value": 800
+		},
+		"0039": {
+			"name": "IME Mode",
+			"key": "0039",
+			"value": 1
+		},
+		"0040": {
+			"name": "Graphics Stabilization",
+			"key": "0040",
+			"value": 0
+		},
+		"0041": {
+			"name": "Enable Beta UI",
+			"key": "0041",
+			"value": 0
+		},
+		"0042": {
+			"name": "Default Game Screenshot Path",
+			"key": "0042",
+			"value": "C:\\Program Files (x86)\\SquareEnix\\FINAL FANTASY XI"
+		},
+		"0043": {
+			"name": "Take Screenshot In Screen Resolution",
+			"key": "0043",
+			"value": 0
+		},
+		"0044": {
+			"name": "Maintain Window Aspect Ratio",
+			"key": "0044",
+			"value": 1
+		},
+		"0045": {
+			"name": "Unknown/Unused",
+			"key": "0045",
+			"value": 0
+		},
+		"padmode000": {
+			"name": "Gamepad Settings Controls",
+			"key": "padmode000",
+			"value": [
+				1,
+				1,
+				0,
+				0,
+				1,
+				1
+			]
+		},
+		"padsin000": {
+			"name": "Button Mappings",
+			"key": "padsin000",
+			"value": [
+				8,
+				9,
+				13,
+				12,
+				10,
+				0,
+				1,
+				3,
+				2,
+				15,
+				-1,
+				-1,
+				14,
+				-33,
+				-33,
+				32,
+				32,
+				-36,
+				-36,
+				35,
+				35,
+				6,
+				7,
+				5,
+				4,
+				11,
+				-1
+			]
+		}
+	},
+	"customSettings": {
+		"3": {
+			"id": "3",
+			"name": "Console Key",
+			"description": "Key used for opening the client's console.",
+			"author": "None",
+			"value": "Insert"
+		},
+		"4": {
+			"id": "4",
+			"name": "Launcher Music Volume",
+			"description": "Toggle the launcher music.",
+			"author": "Chary",
+			"value": 0
+		},
+		"6": {
+			"id": "6",
+			"name": "Enable seeding installer",
+			"description": "Help us by uploading the game install to other players. (Your download comes from other players too!)",
+			"author": "Flam",
+			"value": true
+		},
+		"7": {
+			"id": "7",
+			"name": "Throttle installation upload speed (KB/s)",
+			"description": "Throttle your max upload speed to help us spread the installer to other players.",
+			"author": "Flam",
+			"value": 1000
+		},
+		"8": {
+			"id": "8",
+			"name": "Ashita and POL Language",
+			"description": "Contains configuration settings used to determine which language data is used for defaults.",
+			"author": "atom0s",
+			"value": 2
+		}
+	},
+	"pivotSettings": {
+		"horizonmusic": {
+			"dirname": "horizonmusic",
+			"name": "Horizon XI Music",
+			"description": "Custom music for FFXI by members of the HorizonXI team.",
+			"author": "HorizonXI",
+			"enabled": true
+		},
+		"horizonoverrides": {
+			"dirname": "horizonoverrides",
+			"name": "Horizonoverrides",
+			"description": "",
+			"author": "",
+			"enabled": true
+		},
+		"xiview": {
+			"dirname": "xiview",
+			"name": "XIView",
+			"description": "FFXI UI & Icon Changes. Modified by HorizonXI.",
+			"author": "KenshiDRK",
+			"enabled": true
+		}
+	},
+	"theme": "dark",
+	"__internal__": {
+		"migrations": {
+			"version": "1.2.4"
+		}
+	}
+}
