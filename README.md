@@ -67,72 +67,23 @@ cd $HOME/horizon-xi &&
 
 7. Open the horizon launcher and open gamepad configuration, enable XInput.
 
-8. Open dolphin (the folder/file explorer just like on windows) and go to; `/home/deck/.local/share/Steam/steamapps/compatdata/<prefix_id>/drive_c/users/steamuser/AppData/Roaming/HorizonXI-Launcher/`
-
-the <prefix_ID> is a random number you will need to figure out which one is for horizon as there will likely be multiple folders in here. You can use the search function in the folder
-
-and open config.json
-
-9. Make the following changes inside this file in Kate then save it. (Kate is the name of the text editor, don't question it);
+8. Copy/paste the following into the Konsole and hit enter;
 
 ```
-"padmode000": {
-    "name": "Gamepad Settings Controls",
-    "key": "padmode000",
-    "value": [
-        1,
-        1,
-        0,
-        0,
-        1,
-        1
-    ]
-}
+rm -f $HOME/Downloads/config.json;
+wget -P $HOME//Downloads https://github.com/MattyGWS/HorizonXI-Linux-Installation/blob/main/config.json &&
+config_dir=$(find $HOME/.local/share/Steam/steamapps/compatdata/ -name "config.json" -exec dirname {} \;)
+find $HOME/.local/share/Steam/steamapps/compatdata/ -name "config.json" -exec rm -f {} \;
+if [ -n "$config_dir" ]; then
+  cp $HOME/Downloads/config.json "$config_dir"
+fi
 ```
 
-And;
-
-```
-"padsin000": {
-    "name": "Button Mappings",
-    "key": "padsin000",
-    "value": [
-        8,
-        9,
-        13,
-        12,
-        10,
-        0,
-        1,
-        3,
-        2,
-        15,
-        -1,
-        -1,
-        14,
-        -33,
-        -33,
-        32,
-        32,
-        -36,
-        -36,
-        35,
-        35,
-        6,
-        7,
-        5,
-        4,
-        11,
-        -1
-    ]
-}
-```
-
-10. Go back into gamemode on the steamdeck, launch horizonxi launcher like any other game, hit play and you're done! (note that for me at least, on my steamdeck when i open the horizonxi launcher the mouse input from the touchpad doesn't seem to work so i have to press play by actually using the touch screen)
+9. Go back into gamemode on the steamdeck, launch horizonxi launcher like any other game, hit play and you're done! (note that for me at least, on my steamdeck when i open the horizonxi launcher the mouse input from the touchpad doesn't seem to work so i have to press play by actually using the touch screen)
 
 -----
 
-11. Updating the launcher!
+10. Updating the launcher!
 
 Open the Konsole, copy/paste then run this command;
 
@@ -145,4 +96,5 @@ cd $HOME/horizon-xi &&
 7z x -y installer.exe &&
 7z x -y HorizonXI_Launcher-1.3.0-full.nupkg
 ```
+
 That's it, now you have updated the launcher. Nothing else to do! 
