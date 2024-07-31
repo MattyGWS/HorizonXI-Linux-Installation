@@ -33,7 +33,7 @@
 			"name": "chatmon",
 			"description": "Plays sounds as a reaction to certain events in chat. (And some other helpful events.)",
 			"author": "atom0s",
-			"enabled": true
+			"enabled": false
 		},
 		"Checker": {
 			"id": "8",
@@ -61,7 +61,7 @@
 			"name": "craftmon",
 			"description": "Craftmon is an addon that is able to display the players craft result immediately after starting the synth. It will print out a colored message based on the result. (Normal Quality, High-Quality, or Break)",
 			"author": "atom0s",
-			"enabled": true
+			"enabled": false
 		},
 		"distance": {
 			"id": "12",
@@ -96,7 +96,7 @@
 			"name": "filterless",
 			"description": "Removes the bad language chat filter by force. (Useful for private servers as the client settings are not properly saved.)",
 			"author": "atom0s",
-			"enabled": true
+			"enabled": false
 		},
 		"filters": {
 			"id": "17",
@@ -229,21 +229,21 @@
 			"name": "HXUI",
 			"description": "A massive UI overhaul for almost every UI element on your screen.",
 			"author": "HXUI Team",
-			"enabled": true
+			"enabled": false
 		},
 		"MobDB": {
 			"id": "39",
 			"name": "MobDB",
 			"description": "Displays detailed monster information on-screen.",
 			"author": "Thorny",
-			"enabled": true
+			"enabled": false
 		},
 		"NoLock": {
 			"id": "41",
 			"name": "NoLock",
 			"description": "Allows you to engage/disengage without animation lock from effects such as spells being cast on you or mob TP moves.",
 			"author": "WinterSolstice8",
-			"enabled": false
+			"enabled": true
 		},
 		"TargetLines": {
 			"id": "40",
