@@ -5,7 +5,7 @@ A step by step guide to installing HorizonXI, the private FFXI server, on linux/
 
 Recommended to use a keyboard plugged in on Steamdeck! Otherwise you will have to use STEAM+X buttons to use a virtual keyboard on screen and it's not fun.
 
-Please read each step carefully. If you are on Steamdeck you will need to go through each of these steps in order. If you are on a normal linux distro you can ignore the steamdeck steps/comments.
+**Please read each step carefully.** If you are on Steamdeck you will need do the extra steps as stated. If you are on a normal linux distro you can ignore the steamdeck steps/comments.
 
 -----
 -----
@@ -28,9 +28,6 @@ Software to be aware of;
 
 -----
 -----
-
-I realise this looks daunting but all we're doing here is extracting the launchers .exe file as if it were a .zip, then running the .exe inside that with Steam as a non steam game. And with all that out of the way, here we go!
-
 
 1. If you're on steamdeck you will need to set a memorable sudo password (admin password) if you haven't already. If you're on a normal linux desktop distro you can probably skip this as it's likely already been done (though it doesn't hurt to do it if you're unsure). Open the konsole and type `passwd` then type in a password as prompted then press enter. Heads up; when typing in the password in the Konsole it may look like you aren't typing at all, this is a security feature of the terminal, you're still inputting the password but it just doesn't visibly show.
 
