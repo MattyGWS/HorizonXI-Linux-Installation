@@ -62,7 +62,7 @@ cd $HOME/horizon-xi &&
 
 **If you're on Steamdeck, there is an extra step to make the controls work. You only need to do this once, not every time you update the launcher**;
 
-7. Open the horizon launcher and open gamepad configuration, enable XInput.
+7. In desktop mode, open the horizon launcher and open gamepad configuration, enable XInput then close the launcher.
 
 8. Open the Konsole, copy/paste then run this command;
 
