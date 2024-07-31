@@ -84,7 +84,7 @@ Open the Konsole, copy/paste then run this command;
 
 ```
 rm -f $HOME/Downloads/HorizonXI-Launcher-1.3.0.Setup.exe;
-wget -P $HOME/Downloads https://github.com/HorizonFFXI/HorizonXI-Launcher-Binaries/releases/download/v1.3.0/HorizonXI-Launcher-1.3.0.Setup.exe &&
+wget -P $HOME/Downloads https://raw.githubusercontent.com/MattyGWS/HorizonXI-Linux-Installation/main/config.json &&
 mkdir -p $HOME/horizon-xi;
 cp "$HOME/Downloads/HorizonXI-Launcher-1.3.0.Setup.exe" $HOME/horizon-xi/installer.exe &&
 cd $HOME/horizon-xi &&
