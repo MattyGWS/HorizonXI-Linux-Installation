@@ -66,7 +66,7 @@ cd $HOME/horizon-xi &&
 
 ```
 rm -f $HOME/Downloads/config.json;
-wget -P $HOME//Downloads https://github.com/MattyGWS/HorizonXI-Linux-Installation/blob/main/config.json &&
+wget -P $HOME/Downloads https://raw.githubusercontent.com/MattyGWS/HorizonXI-Linux-Installation/main/config.json &&
 config_dir=$(find $HOME/.local/share/Steam/steamapps/compatdata/ -name "config.json" -exec dirname {} \;)
 find $HOME/.local/share/Steam/steamapps/compatdata/ -name "config.json" -exec rm -f {} \;
 if [ -n "$config_dir" ]; then
@@ -84,7 +84,7 @@ Open the Konsole, copy/paste then run this command;
 
 ```
 rm -f $HOME/Downloads/HorizonXI-Launcher-1.3.0.Setup.exe;
-wget -P $HOME/Downloads https://raw.githubusercontent.com/MattyGWS/HorizonXI-Linux-Installation/main/config.json &&
+wget -P $HOME//Downloads https://github.com/HorizonFFXI/HorizonXI-Launcher-Binaries/releases/download/v1.3.0/HorizonXI-Launcher-1.3.0.Setup.exe &&
 mkdir -p $HOME/horizon-xi;
 cp "$HOME/Downloads/HorizonXI-Launcher-1.3.0.Setup.exe" $HOME/horizon-xi/installer.exe &&
 cd $HOME/horizon-xi &&
