@@ -34,13 +34,13 @@ Software to be aware of;
 2. Open the Konsole, copy/paste then run this command;
 
 ```
-rm -f $HOME/Downloads/HorizonXI-Launcher-1.3.0.Setup.exe;
-wget -P $HOME//Downloads https://github.com/HorizonFFXI/HorizonXI-Launcher-Binaries/releases/download/v1.3.0/HorizonXI-Launcher-1.3.0.Setup.exe &&
+rm -f $HOME/Downloads/HorizonXI-Launcher-1.3.1.Setup.exe;
+wget -P $HOME//Downloads https://github.com/HorizonFFXI/HorizonXI-Launcher-Binaries/releases/download/v1.3.1/HorizonXI-Launcher-1.3.1.Setup.exe &&
 mkdir -p $HOME/horizon-xi;
-cp "$HOME/Downloads/HorizonXI-Launcher-1.3.0.Setup.exe" $HOME/horizon-xi/installer.exe &&
+cp "$HOME/Downloads/HorizonXI-Launcher-1.3.1.Setup.exe" $HOME/horizon-xi/installer.exe &&
 cd $HOME/horizon-xi &&
 7z x -y installer.exe &&
-7z x -y HorizonXI_Launcher-1.3.0-full.nupkg
+7z x -y HorizonXI_Launcher-1.3.1-full.nupkg
 ```
 
 3. Open the ProtonQT-Up app you got earlier from the discover store and add version "GE-Proton-42" (this will require you to restart the steam application for it to take effect once you've added this proton version). if you didn't get the app already it's fine just grab it now;
@@ -83,13 +83,13 @@ fi
 Open the Konsole, copy/paste then run this command;
 
 ```
-rm -f $HOME/Downloads/HorizonXI-Launcher-1.3.0.Setup.exe;
-wget -P $HOME//Downloads https://github.com/HorizonFFXI/HorizonXI-Launcher-Binaries/releases/download/v1.3.0/HorizonXI-Launcher-1.3.0.Setup.exe &&
+rm -f $HOME/Downloads/HorizonXI-Launcher-1.3.1.Setup.exe;
+wget -P $HOME//Downloads https://github.com/HorizonFFXI/HorizonXI-Launcher-Binaries/releases/download/v1.3.1/HorizonXI-Launcher-1.3.1.Setup.exe &&
 mkdir -p $HOME/horizon-xi;
-cp "$HOME/Downloads/HorizonXI-Launcher-1.3.0.Setup.exe" $HOME/horizon-xi/installer.exe &&
+cp "$HOME/Downloads/HorizonXI-Launcher-1.3.1.Setup.exe" $HOME/horizon-xi/installer.exe &&
 cd $HOME/horizon-xi &&
 7z x -y installer.exe &&
-7z x -y HorizonXI_Launcher-1.3.0-full.nupkg
+7z x -y HorizonXI_Launcher-1.3.1-full.nupkg
 ```
 
 That's it, now you have updated the launcher. Nothing else to do! 
