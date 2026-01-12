@@ -41,6 +41,7 @@ cp "$HOME/Downloads/HorizonXI-Launcher-1.3.2-hotfix1.Setup.exe" $HOME/horizon-xi
 cd $HOME/horizon-xi &&
 7z x -y installer.exe &&
 7z x -y HorizonXI_Launcher-1.3.2-hotfix1-full.nupkg
+killall steam
 ```
 
 3. Open the ProtonQT-Up app you got earlier from the discover store and add version "GE-Proton-42" (this will require you to restart the steam application for it to take effect once you've added this proton version). if you didn't get the app already it's fine just grab it now;
