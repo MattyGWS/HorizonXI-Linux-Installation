@@ -1,3 +1,6 @@
+This guide is no longer being updated on Github. I've moved to Gitlab! However I am keeping it up for a moment just for people to be aware. You can find the continuously updated guide here; https://gitlab.com/MattyGWS/HorizonXI-Linux-Installation
+
+
 # HorizonXI-Linux-Installation
 A step by step guide to installing HorizonXI, the private FFXI server, on linux/steamdeck using Steam. **Not Windows on steamdeck.**
 
